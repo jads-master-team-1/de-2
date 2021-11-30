@@ -59,6 +59,7 @@ df_young_old_disc = fetch_data("young_old_disc", gbq_project_id)
 
 # title & sidebar
 st.title("Data on the Tokyo 2020 olympics")
+st.subheader("Group 1: Iona, Colette, Tom, Laurens, Olivier, Bram")
 selectbox = st.sidebar.multiselect(
     "What datasets whould you want to inpect?",
     ("Medals stream", "Number of athletes per country", "Coach to athlete ratio",
